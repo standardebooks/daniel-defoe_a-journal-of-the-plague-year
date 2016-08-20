@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
 section[epub|type~="preface"] p:first-child{
 	margin-top: 5em;
 }
@@ -9,4 +14,92 @@ section[epub|type~="preface"] p{
 	margin: 1em auto;
 	max-width: 50%;
 	text-indent: 0;
+}
+
+table{
+	margin: auto;
+	border-spacing: 1em;
+	font-variant-numeric: tabular-nums;
+}
+
+table thead td{
+	font-style: italic;
+}
+
+table td{
+	text-align: right;
+}
+
+table td[colspan]{
+	text-align: center;
+}
+
+table tfoot td:not(.empty){
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.ward{
+	text-align: center;
+}
+
+.ward p,
+.signature p,
+.subheader + p,
+ul + p,
+table + p{
+	text-indent: 0;
+}
+
+.signature{
+	margin-top: 1em;
+}
+
+blockquote header p{
+	font-variant: small-caps;
+	text-align: center;
+	margin-top: 2em;
+}
+
+blockquote p.subheader{
+	font-style: italic;
+	text-align: center;
+	margin-top: 1em;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] br{
+	display: none;
+}
+
+.right{
+	text-align: right;
+}
+
+.inscription{
+	max-width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+cite{
+	display: block;
+	text-align: right;
+	margin: 1em 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
