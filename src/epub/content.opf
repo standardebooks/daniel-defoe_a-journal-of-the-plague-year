@@ -18,15 +18,15 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">A Journal of the Plague Year</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
+		<meta property="file-as" refines="#title">Journal of the Plague Year, A</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Great Fire, London, England, 1666 -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Plague -- Fiction</dc:subject>
 		<dc:subject id="subject-4">London (England) -- History -- 17th century -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">http://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-2">http://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-3">http://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-4">http://www.gutenberg.org/ebooks/376</meta>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/376</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/376</meta>
+		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/376</meta>
+		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/376</meta>
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
@@ -37,8 +37,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/376</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009913602</dc:source>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">94950</meta>
+		<meta property="se:reading-ease.flesch">42.01</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/daniel-defoe_a-journal-of-the-plague-year</meta>
 		<dc:creator id="author">Daniel Defoe</dc:creator>
@@ -46,6 +46,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Daniel_Defoe</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79053974</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Arnold Böcklin</dc:contributor>
 		<meta property="file-as" refines="#artist">Böcklin, Arnold</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arnold_B%C3%B6cklin</meta>
@@ -74,14 +76,22 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-journal-of-the-plague-year.xhtml" id="a-journal-of-the-plague-year.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="a-journal-of-the-plague-year.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
