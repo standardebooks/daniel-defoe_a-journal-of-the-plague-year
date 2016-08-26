@@ -1,6 +1,14 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+#a-journal-of-the-plague-year{
+	margin-top: 8em;
+}
+
+#a-journal-of-the-plague-year p:first-child{
+	text-indent: 0;
+}
+
 abbr.name{
 	white-space: nowrap;
 }
