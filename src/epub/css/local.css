@@ -28,25 +28,25 @@ section[epub|type~="preface"] p{
 	text-indent: 0;
 }
 
-table{
+table.sums{
 	margin: auto;
 	border-spacing: 1em;
 	font-variant-numeric: tabular-nums;
 }
 
-table thead td{
+table.sums thead td{
 	font-style: italic;
 }
 
-table td{
+table.sums td{
 	text-align: right;
 }
 
-table td[colspan]{
+table.sums td[colspan]{
 	text-align: center;
 }
 
-table tfoot td:not(.empty){
+table.sums tfoot td:not(.empty){
 	border-top-width: 1px;
 	border-top-style: solid;
 }
@@ -71,6 +71,7 @@ blockquote header p{
 	font-variant: small-caps;
 	text-align: center;
 	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 blockquote p.subheader{
@@ -114,4 +115,19 @@ cite{
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
+
+td[epub|type~="z3998:persona"]{
+	text-align: right;
+	white-space: nowrap;
+}
+
+td{
+	vertical-align: top;
+	padding: .5em;
 }
