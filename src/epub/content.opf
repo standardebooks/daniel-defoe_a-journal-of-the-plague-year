@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/daniel-defoe/a-journal-of-the-plague-year</dc:identifier>
 		<dc:date>2016-09-27T22:35:37Z</dc:date>
-		<meta property="dcterms:modified">2016-12-28T04:00:03Z</meta>
-		<meta property="se:revision-number">2</meta>
+		<meta property="dcterms:modified">2017-01-04T00:31:27Z</meta>
+		<meta property="se:revision-number">3</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -32,7 +32,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The Plague is a disease that has a long and tragic history alongside humanity’s development of tightly-packed cities.  &lt;i&gt;A Journal of a Plague Year&lt;/i&gt; is a first-person narrative account of London’s last great plague outbreak in 1665, which killed an estimated 100,000 people in just 18 months.&lt;/p&gt;
-			&lt;p&gt;Though written in the first-person perspective by Daniel Defoe, he was only 5 years old during the outbreak.  The initials at the end of the work, “H. F.”, suggest that &lt;i&gt;Journal&lt;/i&gt; is based on accounts of Defoe’s uncle, Henry Foe.&lt;/p&gt;
+			&lt;p&gt;Though written in the first-person perspective by Daniel Defoe, he was only 5 years old during the outbreak.  The initials at the end of the work, “H. F.,” suggest that &lt;i&gt;Journal&lt;/i&gt; is based on accounts of Defoe’s uncle, Henry Foe.&lt;/p&gt;
 			&lt;p&gt;This highly readable short novel is fascinating not just as a historical account, but in its description of how people reacted to a deadly disease that they understood to be contagious, but yet had no cure for.  Defoe derides quack doctors who killed more than they saved, and then themselves succumbed to plague.  He tells of people turning to religion; of people driven mad by the death around them and raving in the streets; of people fleeing to the country, and of others barricading themselves in their homes.  The ways people reacted in 1665 could be the very same ways people might have reacted today to a mysterious, deadly, and highly contagious outbreak.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
