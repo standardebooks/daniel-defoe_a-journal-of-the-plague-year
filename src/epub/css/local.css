@@ -5,10 +5,6 @@
 	margin-top: 8em;
 }
 
-#a-journal-of-the-plague-year p:first-child{
-	text-indent: 0;
-}
-
 abbr.name{
 	white-space: nowrap;
 }
@@ -20,10 +16,6 @@ abbr.compass{
 b{
 	font-weight: normal;
 	font-variant: small-caps;
-}
-
-section[epub|type~="preface"] p:first-child{
-	margin-top: 5em;
 }
 
 section[epub|type~="preface"] p{
@@ -72,9 +64,7 @@ figure img{
 
 figure p,
 .signature p,
-.subheader + p,
-ul + p,
-table + p{
+.subheader + p{
 	text-indent: 0;
 }
 
