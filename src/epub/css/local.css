@@ -101,14 +101,14 @@ blockquote p.subheader{
 	display: none;
 }
 
-.right{
-	text-align: right;
-}
-
 .inscription{
 	max-width: 25%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.inscription span:last-child{
+	text-align: right;
 }
 
 cite{
@@ -122,20 +122,46 @@ p span.i1{
 	padding-left: 2em;
 }
 
-[epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
+[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
 }
 
-td[epub|type~="z3998:persona"]{
-	text-align: right;
-	white-space: nowrap;
+[epub|type~="z3998:drama"] tr:first-child td{
+	padding-top: 0;
 }
 
-td{
+[epub|type~="z3998:drama"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:drama"] td{
 	vertical-align: top;
 	padding: .5em;
 }
 
-li > :first-child{
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+	width: 20%;
+}
+
+[epub|type~="z3998:drama"] td p{
 	text-indent: 0;
+}
+
+table[epub|type~="z3998:drama"]{
+	margin: 1em auto;
+	width: 100%;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
 }
