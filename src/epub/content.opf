@@ -26,26 +26,28 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">A Journal of the Plague Year</dc:title>
 		<meta property="file-as" refines="#title">Journal of the Plague Year, A</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Great Fire, London, England, 1666 -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Plague -- Fiction</dc:subject>
 		<dc:subject id="subject-4">London (England) -- History -- 17th century -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/376</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/376</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008109306</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">An account of one man’s survival in London during the Great Plague of 1665.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The Plague is a disease that has a long and tragic history alongside humanity’s development of tightly-packed cities. &lt;i&gt;A Journal of a Plague Year&lt;/i&gt; is a first-person narrative account of London’s last great plague outbreak in 1665, which killed an estimated 100,000 people in just 18 months.&lt;/p&gt;
 			&lt;p&gt;Though written in the first-person perspective by Daniel Defoe, he was only 5 years old during the outbreak. The initials at the end of the work, “H. F.,” suggest that &lt;i&gt;Journal&lt;/i&gt; is based on accounts of Defoe’s uncle, Henry Foe.&lt;/p&gt;
 			&lt;p&gt;This highly readable short novel is fascinating not just as a historical account, but in its description of how people reacted to a deadly disease that they understood to be contagious, but yet had no cure for. Defoe derides quack doctors who killed more than they saved, and then themselves succumbed to plague. He tells of people turning to religion; of people driven mad by the death around them and raving in the streets; of people fleeing to the country, and of others barricading themselves in their homes. The ways people reacted in 1665 could be the very same ways people might have reacted today to a mysterious, deadly, and highly contagious outbreak.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/376</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009793316</dc:source>
