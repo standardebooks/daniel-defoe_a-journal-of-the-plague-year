@@ -87,13 +87,13 @@ blockquote p.subheader{
 	display: none;
 }
 
-.inscription{
+blockquote:nth-last-of-type(2){
 	max-width: 25%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.inscription span:last-child{
+blockquote:nth-last-of-type(2) span:last-child{
 	text-align: right;
 }
 
