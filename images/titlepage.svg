@@ -3,7 +3,7 @@
 	<title>The titlepage for the Standard Ebooks edition of A Journal of the Plague Year, by Daniel Defoe</title>
 	<style type="text/css">
 		text{
-			font-family: League Spartan;
+			font-family: "League Spartan";
 			letter-spacing: 5px;
 			text-anchor: middle;
 		}
