@@ -49,13 +49,13 @@ figure + p{
 	text-indent: 0;
 }
 
-figure p,
-[epub|type~="z3998:signature"] p{
+figure p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:signature"]{
+footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 blockquote header p{
@@ -144,6 +144,7 @@ table[epub|type~="z3998:drama"]{
 	width: 100%;
 }
 
-[epub|type~="z3998:persona"]{
+[epub|type~="z3998:persona"],
+[epub|type~="z3998:signature"]{
 	font-variant: all-small-caps;
 }
