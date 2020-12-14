@@ -1,8 +1,9 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+section[epub|type~="preface"],
 #a-journal-of-the-plague-year{
-	margin-top: 8em;
+	margin-top: 20vh;
 }
 
 section[epub|type~="preface"] p{
