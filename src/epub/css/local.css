@@ -146,6 +146,10 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:persona"],
-[epub|type~="z3998:signature"]{
+[epub|type~="z3998:signature"] i{
 	font-variant: all-small-caps;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
