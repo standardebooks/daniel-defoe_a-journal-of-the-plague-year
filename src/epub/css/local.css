@@ -24,6 +24,7 @@ table.sums thead td{
 
 table.sums td{
 	text-align: right;
+	vertical-align: top;
 }
 
 table.sums td[colspan]{
