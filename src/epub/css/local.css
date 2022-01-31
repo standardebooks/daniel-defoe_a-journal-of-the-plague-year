@@ -13,9 +13,9 @@ section[epub|type~="preface"] p{
 }
 
 table.sums{
-	margin: auto;
 	border-spacing: 1em;
 	font-variant-numeric: tabular-nums;
+	margin: auto;
 }
 
 table.sums thead td{
@@ -32,8 +32,8 @@ table.sums td[colspan]{
 }
 
 table.sums tfoot td:not(.empty){
-	border-top-width: 1px;
 	border-top-style: solid;
+	border-top-width: 1px;
 }
 
 figure{
@@ -59,15 +59,15 @@ footer{
 
 blockquote header p{
 	font-variant: small-caps;
-	margin-top: 2em;
 	margin-bottom: 1em;
+	margin-top: 2em;
 }
 
 blockquote > div > header p{
 	font-style: italic;
-	text-align: center;
-	margin-top: 1em;
 	margin-bottom: 0;
+	margin-top: 1em;
+	text-align: center;
 }
 
 [epub|type~="z3998:verse"] p{
@@ -86,9 +86,9 @@ blockquote > div > header p{
 }
 
 blockquote:nth-last-of-type(2){
-	max-width: 25%;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 25%;
 }
 
 blockquote:nth-last-of-type(2) span:last-child{
@@ -97,8 +97,8 @@ blockquote:nth-last-of-type(2) span:last-child{
 
 cite{
 	display: block;
-	text-align: right;
 	margin: 1em 0;
+	text-align: right;
 }
 
 p span.i1{
@@ -121,8 +121,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
