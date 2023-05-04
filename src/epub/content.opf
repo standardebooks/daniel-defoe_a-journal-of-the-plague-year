@@ -52,7 +52,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/376</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009793316</dc:source>
-		<meta property="se:word-count">94929</meta>
+		<meta property="se:word-count">94928</meta>
 		<meta property="se:reading-ease.flesch">42.11</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/daniel-defoe_a-journal-of-the-plague-year</meta>
