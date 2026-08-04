@@ -44,7 +44,7 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>An account of one man’s survival in London during the Great Plague of 1665.</dc:abstract>
+		<meta property="schema:abstract">An account of one man’s survival in London during the Great Plague of 1665.</meta>
 		<dc:description>
 			&lt;p&gt;The Plague is a disease that has a long and tragic history alongside humanity’s development of tightly packed cities. &lt;i&gt;A Journal of a Plague Year&lt;/i&gt; is a first-person narrative account of London’s last great plague outbreak in 1665, which killed an estimated 100,000 people in just 18 months.&lt;/p&gt;
 			&lt;p&gt;Though written in the first-person perspective by &lt;a href="https://standardebooks.org/ebooks/daniel-defoe"&gt;Daniel Defoe&lt;/a&gt;, he was only 5 years old during the outbreak. The initials at the end of the work, “&lt;abbr&gt;H. F.&lt;/abbr&gt;,” suggest that &lt;i&gt;Journal&lt;/i&gt; is based on accounts of Defoe’s uncle, Henry Foe.&lt;/p&gt;
