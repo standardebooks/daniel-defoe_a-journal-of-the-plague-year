@@ -32,9 +32,9 @@
 		<dc:title id="title">A Journal of the Plague Year</dc:title>
 		<meta property="file-as" refines="#title">Journal of the Plague Year, A</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
-		<dc:subject id="subject-2">Great Fire, London, England, 1666 -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Plague -- Fiction</dc:subject>
-		<dc:subject id="subject-4">London (England) -- History -- 17th century -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Great Fire, London, England, 1666--Fiction</dc:subject>
+		<dc:subject id="subject-3">Plague--Fiction</dc:subject>
+		<dc:subject id="subject-4">London (England)--History--17th century--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
