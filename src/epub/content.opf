@@ -53,7 +53,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/376</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009793316</dc:source>
-		<meta property="schema:wordCount">94718</meta>
+		<meta property="schema:wordCount">94699</meta>
 		<meta property="schema:educationalLevel">42.11</meta>
 		<link href="https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
